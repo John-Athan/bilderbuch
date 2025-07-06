@@ -1,0 +1,19 @@
+[project]
+name = "bilderbuch"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.8.1",
+    "diffusers>=0.33.1",
+    "ollama>=0.5.1",
+    "pandas>=2.3.0",
+    "pandas-stubs==2.2.3.250527",
+    "pydantic>=2.11.7",
+    "pytrends>=4.9.2",
+    "reportlab>=4.4.2",
+    "sentencepiece>=0.2.0",
+    "streamlit>=1.46.0",
+    "torch>=2.7.1",
+    "transformers>=4.52.4",
+]
